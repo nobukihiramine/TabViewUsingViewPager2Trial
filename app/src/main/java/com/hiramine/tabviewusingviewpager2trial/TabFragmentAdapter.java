@@ -16,7 +16,7 @@ public class TabFragmentAdapter extends FragmentStateAdapter
 	@Override
 	public Fragment createFragment( int position )
 	{
-		// タグフラグメントを作成し、返す
+		// フラグメントを作成し、返す
 		if( 0 == position )
 		{
 			return new Tab1Fragment();
